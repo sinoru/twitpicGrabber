@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'twitpicGrabber' target in the 'twitpicGrabber' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
