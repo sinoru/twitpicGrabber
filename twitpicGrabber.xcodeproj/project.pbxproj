@@ -29,7 +29,7 @@
 		19D672411493EA2D002C81F0 /* twitpicGrabber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = twitpicGrabber; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D672451493EA2D002C81F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19D672481493EA2D002C81F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19D6724B1493EA2D002C81F0 /* twitpicGrabber-Prefix.pch */ = {isa = PBXFileReference; path = "twitpicGrabber-Prefix.pch"; sourceTree = "<group>"; };
+		19D6724B1493EA2D002C81F0 /* twitpicGrabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twitpicGrabber-Prefix.pch"; sourceTree = "<group>"; };
 		19D6724C1493EA2D002C81F0 /* twitpicGrabber.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = twitpicGrabber.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
