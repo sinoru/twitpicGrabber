@@ -81,16 +81,6 @@ int main (int argc, const char * argv[])
         }
         
         for (NSString *shortID in shortIDArray) {
-            /*
-            NSLog(@"Get full image URL for %@...", shortID);
-            NSString *html = [[NSString alloc] initWithData:[[NSData alloc] initWithContentsOfURL:[[NSURL alloc] initWithString:[NSString stringWithFormat:@"http://twitpic.com/%@/full", shortID]]] encoding:NSUTF8StringEncoding];
-            NSString *imageURLString = [[[[[[html componentsSeparatedByString:@"<div style=\"padding-bottom:10px;\"><img src=\"/images/logo-main.png\"></div>"] objectAtIndex:1] componentsSeparatedByString:@"<img src=\""] objectAtIndex:1] componentsSeparatedByString:@"\" alt="] objectAtIndex:0];
-            
-            
-             NSLog(@"Download image data for %@...", shortID);
-             NSData *imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:imageURLString]];
-            */
-            
             NSLog(@"Download image data for %@... (%lu/%lu)", shortID, [shortIDArray indexOfObject:shortID] + 1, [shortIDArray count]);
             NSData *imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://twitpic.com/show/full/%@", shortID]]];
             
